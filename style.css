@@ -133,9 +133,6 @@
   padding-bottom: var(--dl-space-space-halfunit);
   justify-content: center;
 }
-body {
-   background-image: url("imgs/bg.png");
-}
 .thq-button-outline:hover {
   fill: var(--dl-color-theme-secondary2);
   color: var(--dl-color-theme-secondary2);
@@ -558,5 +555,9 @@ body {
   }
   .thq-grid-auto-300 {
     grid-template-columns: 1fr;
+  }
+  body {
+   background-image: url("imgs/bg.png");
+    background-color: #ffffff;
   }
 }
