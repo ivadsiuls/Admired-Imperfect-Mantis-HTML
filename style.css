@@ -134,7 +134,7 @@
   justify-content: center;
 }
 body {
-   background-image: url("https://github.com/ivadsiuls/ivadsiuls.github.io/blob/main/imgs/bg.png?raw=true");
+   background-image: url("imgs/bg.png");
 }
 .thq-button-outline:hover {
   fill: var(--dl-color-theme-secondary2);
