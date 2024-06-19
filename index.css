@@ -1,0 +1,20 @@
+.home-container {
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #050506;
+}
+.home-text {
+  color: #ffffff;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 500;
+}
+.home-text3 {
+  color: rgb(255, 255, 255);
+  font-style: normal;
+  font-weight: 200;
+}
