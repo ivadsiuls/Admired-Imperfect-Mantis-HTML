@@ -1,70 +1,262 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Admired Imperfect Mantis</title>
-    <meta property="og:title" content="Admired Imperfect Mantis" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta charset="utf-8" />
-    <meta property="twitter:card" content="summary_large_image" />
-
-    <style data-tag="reset-style-sheet">
-      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
-    </style>
-    <style data-tag="default-style-sheet">
-      html {
-        font-family: Inter;
-        font-size: 16px;
-      }
-
-      body {
-        font-weight: 400;
-        font-style:normal;
-        text-decoration: none;
-        text-transform: none;
-        letter-spacing: normal;
-        line-height: 1.15;
-        color: var(--dl-color-theme-neutral-dark);
-        background-color: var(--dl-color-theme-neutral-light);
-
-        fill: var(--dl-color-theme-neutral-dark);
-      }
-    </style>
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/animate.css@4.1.1/animate.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
-    />
-  </head>
-  <body>
-    <link rel="stylesheet" href="./style.css" />
-    <div>
-      <link href="./index.css" rel="stylesheet" />
-
-      <div class="home-container">
-        <span class="home-text">
-          <span>ivadsiuls</span>
-          <br />
-        </span>
-        <span class="home-text3">luau coding</span>
-      </div>
-    </div>
-  </body>
+<head>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>darian</title>
+<link rel="icon" type="image/x-icon" href="https://cdn.discordapp.com/avatars/1055188030442459195/a_32b4cf548bdac59d0031bb130d40013e.gif?size=80">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+<script src="https://kit.fontawesome.com/fcb5095760.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<html oncontextmenu="return false"></html>
+<audio id="audio"></audio>
+<div class="main">
+<canvas id="canvas"></canvas>
+<h1 style="margin-bottom: 20px; display: flex; align-items: center; justify-content: center;font-size: 40px">darian</h1>
+<br>
+<h2>
+<span id="type"></span>
+</h2>
+<br>
+<p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+<br>
+<p>
+<i class="devicon-lua-plain"></i> LUA
+<i class="devicon-javascript-plain"></i> JavaScript
+<i class="devicon-python-plain"></i> Python
+</p>
+<br>
+<ul>
+<a href="https://discord.com/users/1055188030442459195"><i class="fa-brands fa-discord"></i></a>
+<a href="https://github.com/justDarian"><i class="fa-brands fa-github"></i></a>
+<a href="https://www.youtube.com/@justdarian"><i class="fa-brands fa-youtube"></i></a>
+</ul>
+<br>
+<p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+<br>
+<img src="https://discord.c99.nl/widget/theme-2/1055188030442459195.png">
+<br>
+<br>
+<div id="now-playing" style="font-size: 15px; text-align: center;"></div>
+</div>
+</body>
 </html>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    body {
+        background-color: black;
+        color: white;
+        font-family: monospace;
+    }
+
+    a {
+        color: white;
+        text-transform: none;
+        transition: 0.3s;
+    }
+
+    a:hover {
+        color: grey;
+    }
+
+    #logo {
+        width: 200px;
+        border-radius: 50rem;
+    }
+
+    .main {
+        display: flex;
+        top: 50%;
+        left: 50%;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    canvas {
+        position: fixed;
+        z-index: -1;
+    }
+</style>
+<script>
+    var canvas = document.getElementById("canvas"),
+        ctx = canvas.getContext('2d');
+
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+
+    var stars = [],
+        FPS = 60,
+        x = 100,
+        mouse = {
+            x: 0,
+            y: 0
+        };
+
+    for (var i = 0; i < x; i++) {
+        stars.push({
+            x: Math.random() * canvas.width,
+            y: Math.random() * canvas.height,
+            radius: Math.random() * 1 + 1,
+            vx: Math.floor(Math.random() * 50) - 25,
+            vy: Math.floor(Math.random() * 50) - 25
+        });
+    }
+
+    function draw() {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+        ctx.globalCompositeOperation = "lighter";
+
+        for (var i = 0, x = stars.length; i < x; i++) {
+            var s = stars[i];
+
+            ctx.fillStyle = "#fff";
+            ctx.beginPath();
+            ctx.arc(s.x, s.y, s.radius, 0, 2 * Math.PI);
+            ctx.fill();
+            ctx.fillStyle = 'black';
+            ctx.stroke();
+        }
+
+        ctx.beginPath();
+        for (var i = 0, x = stars.length; i < x; i++) {
+            var starI = stars[i];
+            ctx.moveTo(starI.x, starI.y);
+            if (distance(mouse, starI) < 150) ctx.lineTo(mouse.x, mouse.y);
+            for (var j = 0, x = stars.length; j < x; j++) {
+                var starII = stars[j];
+                if (distance(starI, starII) < 150) {
+                    ctx.lineTo(starII.x, starII.y);
+                }
+            }
+        }
+        ctx.lineWidth = 0.05;
+        ctx.strokeStyle = 'white';
+        ctx.stroke();
+    }
+
+    function distance(point1, point2) {
+        var xs = 0;
+        var ys = 0;
+
+        xs = point2.x - point1.x;
+        xs = xs * xs;
+
+        ys = point2.y - point1.y;
+        ys = ys * ys;
+
+        return Math.sqrt(xs + ys);
+    }
+
+    function update() {
+        for (var i = 0, x = stars.length; i < x; i++) {
+            var s = stars[i];
+
+            s.x += s.vx / FPS;
+            s.y += s.vy / FPS;
+
+            if (s.x < 0 || s.x > canvas.width) s.vx = -s.vx;
+            if (s.y < 0 || s.y > canvas.height) s.vy = -s.vy;
+        }
+    }
+
+    canvas.addEventListener('mousemove', function(e) {
+        mouse.x = e.clientX;
+        mouse.y = e.clientY;
+    });
+
+    function tick() {
+        draw();
+        update();
+        requestAnimationFrame(tick);
+    }
+
+    tick();
+</script>
+<script>
+    let nextSong;
+    const params = new URLSearchParams(window.location.search) // :fire:
+    const audioPlayer = document.getElementById('audio');
+    const nowPlaying = document.getElementById('now-playing');
+    const playlist = [
+        "Batman!.mp3",
+        "california gurls! (pluggnb remix).mp3",
+        "chinatown!.mp3",
+        "hope u doing well.mp3",
+        "Islands (kompa pasión).mp3",
+        "lenn.mp3",
+        "Renai Circulation.mp3",
+        "Glamorous x 9 Am In Calabasas.mp4",
+        "Dancin (KRONO Remix).mp3",
+        "Red Sun In The Sky.mp3",
+    ]
+    
+    const play = () => {
+        // check the o param for existence
+        if (params.get("o") === null) {
+            // not existent
+            nextSong = "bg/" + playlist[Math.floor(Math.random() * playlist.length)]
+        } else {
+            // existent!!!1 skibidi toilet
+            nextSong = "bg/" + playlist[parseInt(params.get("o"))]
+            audioPlayer.loop = true;
+        }
+
+        audioPlayer.src = nextSong
+        audioPlayer.play();
+        nowPlaying.textContent = `NOW PLAYING: ${decodeURIComponent(nextSong.split("/").pop())}`;
+    };
+    
+    audioPlayer.addEventListener('ended', play); // call the play function again when the audioplayer ended
+    
+    // css by chatgpt :fire:
+    const overlay = document.createElement('div');
+    overlay.style.cssText = 'position:fixed;top:0;left:0;width:100%;height:100%;background-color:#000;z-index:9999;color:#fff;display:flex;align-items:center;justify-content:center;font-size:20px;cursor:pointer;font-family:"Comic Sans MS", cursive;transition: opacity 1s ease;';
+    overlay.textContent = 'Click To Enter';
+    
+    overlay.onclick = async function () {
+        overlay.style.opacity = '0';
+        setTimeout(() => {
+            document.body.removeChild(overlay); // allow smoothness before delete
+        }, 1000);
+        play()
+    };
+    
+    document.body.appendChild(overlay); 
+    
+    // start the typerwriter!!
+    new Typed('#type', {
+        // sigma!
+        strings: [
+            'is a professional idiot',
+            'is a degenerate',
+            'is a discord degenerate',
+            'cant spal',
+            'creates memory leaks',
+            'doesnt touch grass',
+            'owns devtech',
+            'needs a family'
+        ],
+        typeSpeed: 60,
+        backSpeed: 25,
+        backDelay: 2000,
+        shuffle: true,
+        loop: true,
+        smartBackspace: true
+    });
+</script>
